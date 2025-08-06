@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+
+@import "tailwindcss";
+
+body{
+  @apply bg-pink-50
+}
+
+.logo{
+  @apply text-4xl font-serif pl-2 text-pink-700 font-extrabold
+}
+
+.head{
+  @apply  text-2xl
+}
+.About-h1{
+  @apply   box-border rounded-xl border-pink-400 bg-pink-200 shadow-2xl hover:bg-pink-300 hover:scale-105 active:scale-95
+  transition-all duration-200
+  cursor-pointer
+}
+.Search-h1{
+  @apply  box-border rounded-xl border-pink-400 bg-pink-200 shadow-2xl  hover:bg-pink-300 hover:scale-105 active:scale-95
+  transition-all duration-200
+  cursor-pointer
+}
+.Buy-h1{
+  @apply  box-border rounded-xl border-pink-400 bg-pink-200 shadow-2xl hover:bg-pink-300 hover:scale-105 active:scale-95
+  transition-all duration-200
+  cursor-pointer
+}
+.Contact-h1{
+  @apply  box-border rounded-xl border-pink-400 bg-pink-200 shadow-2xl  hover:bg-pink-300 hover:scale-105 active:scale-95
+  transition-all duration-200
+  cursor-pointer
+}
+
+.srch{
+  @apply pl-4 pr-10 py-2 rounded-full bg-white text-gray-700 focus:outline-none focus:ring-2 focus:ring-pink-400
+}
+.srchB{
+  @apply absolute right-1 top-1 bottom-1 px-3 text-white bg-pink-500 hover:bg-pink-600 rounded-full cursor-pointer
+}
+
+
